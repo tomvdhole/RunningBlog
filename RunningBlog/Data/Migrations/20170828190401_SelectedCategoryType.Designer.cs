@@ -11,9 +11,10 @@ using System;
 namespace RunningBlog.Data.Migrations
 {
     [DbContext(typeof(RunningBlogDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20170828190401_SelectedCategoryType")]
+    partial class SelectedCategoryType
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

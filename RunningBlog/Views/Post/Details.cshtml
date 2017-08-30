@@ -1,0 +1,71 @@
+@model RunningBlog.Models.Post
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Post</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Photo)
+        </dt>
+        <dd>
+            @if (Model.Photo != null)
+            {
+                <img src="data:image;base64,@System.Convert.ToBase64String(Model.Photo)"
+                    alt="company logo" width="80" height="80"
+                    asp-append-version="true" />
+            }
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Content)
+        </dt>
+        <dd>
+            <textarea asp-for="Content" rows="15" cols="40"></textarea>
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PublishedOn)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PublishedOn)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.LastUpdatedOn)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.LastUpdatedOn)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PublishedBy)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PublishedBy)
+        </dd>
+    </dl>
+    <a asp-action="Create" asp-controller="Comment" asp-route-postId="@Model.Id" class="btn btn-default">Add a comment</a>
+    <br /><br />
+    @if (Model.Comments.Count > 0)
+    {
+        <h1>Comments:</h1>
+        foreach (var comment in Model.Comments)
+        {
+            @:Posted by: @comment.PublishedBy on @comment.PublishedOn<br />
+            @comment.Content<br /><hr />
+        }
+
+    }
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -11,9 +11,10 @@ using System;
 namespace RunningBlog.Data.Migrations
 {
     [DbContext(typeof(RunningBlogDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20170827145052_TypeChangeOfField")]
+    partial class TypeChangeOfField
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -179,7 +180,7 @@ namespace RunningBlog.Data.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
-            modelBuilder.Entity("RunningBlog.Models.Category", b =>
+            modelBuilder.Entity("RunningBlog.Models.CategorySelectList", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
@@ -188,7 +189,7 @@ namespace RunningBlog.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Category");
+                    b.ToTable("CategorySelectList");
                 });
 
             modelBuilder.Entity("RunningBlog.Models.Comment", b =>
@@ -304,7 +305,7 @@ namespace RunningBlog.Data.Migrations
 
             modelBuilder.Entity("RunningBlog.Models.PostCategory", b =>
                 {
-                    b.HasOne("RunningBlog.Models.Category", "Category")
+                    b.HasOne("RunningBlog.Models.CategorySelectList", "CategorySelectList")
                         .WithMany("PostCategories")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade);

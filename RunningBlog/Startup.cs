@@ -26,17 +26,28 @@ namespace RunningBlog
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ApplicationDbContext>(options =>
+            services.AddDbContext<RunningBlogDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddIdentity<ApplicationUser, IdentityRole>()
-                .AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddEntityFrameworkStores<RunningBlogDbContext>()
                 .AddDefaultTokenProviders();
 
             // Add application services.
             services.AddTransient<IEmailSender, EmailSender>();
 
             services.AddMvc();
+
+            // Add own services.
+            services.AddScoped<IRepository<Category>, CategoryRepository>();
+            services.AddScoped<ICategoryServices, CategoryServices>();
+            services.AddScoped<IRepository<Post>, PostRepository>();
+            services.AddScoped<IPostServices, PostServices>();
+            services.AddScoped<IRepository<PostCategory>, PostCategoryRepository>();
+            services.AddScoped<IPostCategoryServices, PostCategoryServices>();
+            services.AddScoped<IRepository<Comment>, CommentRepository>();
+            services.AddScoped<ICommentServices, CommentServices>();
+           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
