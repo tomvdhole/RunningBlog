@@ -20,11 +20,9 @@ namespace RunningBlog.Models.PostViewModels
         public SelectList CategorySelectList { get; set; } 
 
 
-        public async Task PopulateCategories(ICategoryServices categoryServices)
-        {
-            List<Category> categories = await categoryServices.GetCategories();
-            
-            if(categories != null)
+        public void PopulateCategories(List<Category> categories)
+        {           
+            if(categories != null && categories.Count > 0)
             {
                 List<SelectListItem> selectListItems = new List<SelectListItem>();
 

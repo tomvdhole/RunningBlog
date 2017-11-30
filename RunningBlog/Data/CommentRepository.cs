@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using RunningBlog.Models;
 
 namespace RunningBlog.Data
@@ -21,22 +22,34 @@ namespace RunningBlog.Data
             await runningBlogDbContext.SaveChangesAsync();
         }
 
-        public Task Delete(Comment entity)
+        public async Task Delete(Comment entity)
         {
-            throw new NotImplementedException();
+            runningBlogDbContext.Comment.Remove(entity);
+            await runningBlogDbContext.SaveChangesAsync();
         }
 
-        public Task<Comment> Get(Comment entity)
+        public async Task<Comment> Get(Comment entity)
         {
-            throw new NotImplementedException();
+            return await runningBlogDbContext.Comment.SingleOrDefaultAsync<Comment>(c => c.Id == entity.Id);
         }
 
-        public Task<Comment> Get(int id)
+        public async Task<Comment> Get(int id)
+        {
+            return await runningBlogDbContext.Comment.SingleOrDefaultAsync<Comment>(c => c.Id == id);
+        }
+
+        //Many to many problem solution
+        public Task<Comment> Get(int leftTableId, int rightTableID)
         {
             throw new NotImplementedException();
         }
 
         public Task<List<Comment>> GetAllAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<List<Comment>> GetAllWithSameIdAsync(int id)
         {
             throw new NotImplementedException();
         }

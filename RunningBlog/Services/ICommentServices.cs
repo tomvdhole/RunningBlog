@@ -9,5 +9,7 @@ namespace RunningBlog.Services
     public interface ICommentServices
     {
         Task SaveComment(Comment comment);
+        Task DeleteComment(Comment comment);
+        Task<Comment> GetComment(int id);
     }
 }

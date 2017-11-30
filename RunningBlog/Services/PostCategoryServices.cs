@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using RunningBlog.Models;
 using RunningBlog.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace RunningBlog.Services
 {
@@ -16,9 +17,14 @@ namespace RunningBlog.Services
             this.repository = repository;
         }
 
-        public Task DeletePostCategory(PostCategory postCategory)
+        public async Task DeletePostCategory(PostCategory postCategory)
         {
-            throw new NotImplementedException();
+            await repository.Delete(postCategory);
+        }
+
+        public async Task<List<PostCategory>> GetAllWithSameIdAsync(int id)
+        {
+            return await repository.GetAllWithSameIdAsync(id);
         }
 
         public async Task SavePostCategory(PostCategory postCategory)

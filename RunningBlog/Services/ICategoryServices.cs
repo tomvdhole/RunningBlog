@@ -10,6 +10,9 @@ namespace RunningBlog.Services
     {
         Task<List<Category>> GetCategories();
         Task SaveCategory(Category category);
+        Task<Category> GetCategory(int id);
         Task<Category> GetCategory(Category category);
+        Task UpdateCategory(Category category);
+        Task DeleteCategory(Category category);
     }
 }

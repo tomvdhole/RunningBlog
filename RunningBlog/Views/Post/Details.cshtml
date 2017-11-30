@@ -1,4 +1,4 @@
-@model RunningBlog.Models.Post
+@model RunningBlog.Models.PostViewModels.CreatePostViewModel
 
 @{
     ViewData["Title"] = "Details";
@@ -11,61 +11,77 @@
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.Title)
+            @Html.DisplayNameFor(model => model.Post.Title)
         </dt>
         <dd>
-            @Html.DisplayFor(model => model.Title)
+            @Html.DisplayFor(model => model.Post.Title)
         </dd>
         <dt>
-            @Html.DisplayNameFor(model => model.Photo)
+            @Html.DisplayNameFor(model => model.Post.Photo)
         </dt>
         <dd>
             @if (Model.Photo != null)
             {
-                <img src="data:image;base64,@System.Convert.ToBase64String(Model.Photo)"
+                <img src="data:image;base64,@System.Convert.ToBase64String(Model.Post.Photo)"
                     alt="company logo" width="80" height="80"
                     asp-append-version="true" />
             }
         </dd>
         <dt>
-            @Html.DisplayNameFor(model => model.Content)
+            @Html.DisplayNameFor(model => model.Post.Content)
         </dt>
         <dd>
-            <textarea asp-for="Content" rows="15" cols="40"></textarea>
+            <textarea asp-for="Post.Content" rows="15" cols="40"></textarea>
+        </dd>
+        @if (Model.CategorySelectList?.Count() > 0)
+            {
+            <div class="form-group">
+                <label asp-for="CategorySelectList" class="col-md-2 control-label"></label>
+                <div class="col-md-10">
+                    <select asp-for="SelectedCategories" class="form-control" asp-items="@Model.CategorySelectList"></select>
+                    <span asp-validation-for="CategorySelectList" class="text-danger"></span>
+                </div>
+            </div>
+
+        }
+        <dt>
+            @Html.DisplayNameFor(model => model.Post.PublishedOn)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Post.PublishedOn)
         </dd>
         <dt>
-            @Html.DisplayNameFor(model => model.PublishedOn)
+            @Html.DisplayNameFor(model => model.Post.LastUpdatedOn)
         </dt>
         <dd>
-            @Html.DisplayFor(model => model.PublishedOn)
+            @Html.DisplayFor(model => model.Post.LastUpdatedOn)
         </dd>
         <dt>
-            @Html.DisplayNameFor(model => model.LastUpdatedOn)
+            @Html.DisplayNameFor(model => model.Post.PublishedBy)
         </dt>
         <dd>
-            @Html.DisplayFor(model => model.LastUpdatedOn)
-        </dd>
-        <dt>
-            @Html.DisplayNameFor(model => model.PublishedBy)
-        </dt>
-        <dd>
-            @Html.DisplayFor(model => model.PublishedBy)
+            @Html.DisplayFor(model => model.Post.PublishedBy)
         </dd>
     </dl>
-    <a asp-action="Create" asp-controller="Comment" asp-route-postId="@Model.Id" class="btn btn-default">Add a comment</a>
+    <a asp-action="Create" asp-controller="Comment" asp-route-postId="@Model.Post.Id" class="btn btn-default">Add a comment</a>
     <br /><br />
-    @if (Model.Comments.Count > 0)
+    @if (Model.Post.Comments.Count > 0)
     {
         <h1>Comments:</h1>
-        foreach (var comment in Model.Comments)
+        foreach (var comment in Model.Post.Comments)
         {
             @:Posted by: @comment.PublishedBy on @comment.PublishedOn<br />
-            @comment.Content<br /><hr />
+            @comment.Content<br />
+            <div>
+                <a asp-controller="Comment" asp-action="Delete" asp-route-id="@comment.Id">Delete</a>
+            </div>
+            <hr />
         }
+
 
     }
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Edit" asp-route-id="@Model.Post.Id">Edit</a> |
     <a asp-action="Index">Back to List</a>
 </div>

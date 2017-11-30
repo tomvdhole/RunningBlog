@@ -30,18 +30,12 @@
         <dd>
             @Html.DisplayFor(model => model.PublishedBy)
         </dd>
-        <dt>
-            @Html.DisplayNameFor(model => model.Post)
-        </dt>
-        <dd>
-            @Html.DisplayFor(model => model.Post.Content)
-        </dd>
     </dl>
     
     <form asp-action="Delete">
         <div class="form-actions no-color">
             <input type="submit" value="Delete" class="btn btn-default" /> |
-            <a asp-action="Index">Back to List</a>
+            <a asp-action="Details" asp-controller="Post" asp-route-id="@Model.PostId">Back</a>
         </div>
     </form>
 </div>

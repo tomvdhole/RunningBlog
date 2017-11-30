@@ -10,5 +10,6 @@ namespace RunningBlog.Services
     {
         Task SavePostCategory(PostCategory postCategory);
         Task DeletePostCategory(PostCategory postCategory);
+        Task<List<PostCategory>> GetAllWithSameIdAsync(int id);
     }
 }

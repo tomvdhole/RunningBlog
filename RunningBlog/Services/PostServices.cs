@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Http;
 using RunningBlog.Data;
 using RunningBlog.Models;
 using System.IO;
-
+using Microsoft.AspNetCore.Mvc;
 
 namespace RunningBlog.Services
 {
@@ -41,6 +41,24 @@ namespace RunningBlog.Services
             await SavePhotoToPost(post, photo);
             post.LastUpdatedOn = DateTime.Now.ToString();
             await postRepository.Update(post);
+        }
+
+        public async Task DeletePost(int id)
+        {
+            Post post = await postRepository.Get(id);
+            await postRepository.Delete(post);
+            
+
+        }
+
+        private async Task DeletePostCategories(int id,
+                                                [FromServices] IPostCategoryServices postCategoryServices)
+        {
+            List<PostCategory> postCategories = await postCategoryServices.GetAllWithSameIdAsync(id);
+            foreach(PostCategory postCategory in postCategories)
+            {
+                await postCategoryServices.DeletePostCategory(postCategory);
+            }
         }
 
         #region Private Methods

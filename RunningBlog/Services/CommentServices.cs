@@ -16,6 +16,16 @@ namespace RunningBlog.Services
             this.commentRepository = repository; 
         }
 
+        public async Task DeleteComment(Comment comment)
+        {
+            await this.commentRepository.Delete(comment);
+        }
+
+        public async Task<Comment> GetComment(int id)
+        {
+            return await commentRepository.Get(id);
+        }
+
         public async Task SaveComment(Comment comment)
         {
             await commentRepository.AddAsync(comment);

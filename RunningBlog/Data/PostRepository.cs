@@ -42,12 +42,22 @@ namespace RunningBlog.Data
                     .SingleOrDefaultAsync<Post>(post => post.Id == id);
         }
 
+        public Task<Post> Get(int leftTableId, int rightTableID)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<List<Post>> GetAllAsync()
         {
             return await runningBlogDbContext.Post.OrderByDescending(p => p.Id)
                                             .Include(post => post.Comments)
                                             .Include(post => post.PostCategories)
                    .ToListAsync<Post>();
+        }
+
+        public Task<List<Post>> GetAllWithSameIdAsync(int id)
+        {
+            throw new NotImplementedException();
         }
 
         public async Task Update(Post entity)

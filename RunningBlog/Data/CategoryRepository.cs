@@ -22,9 +22,10 @@ namespace RunningBlog.Data
             await runningBlogDbContext.SaveChangesAsync();
         }
 
-        public Task Delete(Category entity)
+        public async Task Delete(Category entity)
         {
-            throw new NotImplementedException();
+            runningBlogDbContext.Category.Remove(entity);
+            await runningBlogDbContext.SaveChangesAsync();
         }
 
         public async Task<Category> Get(Category entity)
@@ -32,7 +33,14 @@ namespace RunningBlog.Data
             return await runningBlogDbContext.Category.SingleOrDefaultAsync<Category>(cRepository => cRepository.Name == entity.Name);
         }
 
-        public Task<Category> Get(int id)
+        public async Task<Category> Get(int id)
+        {
+            Category category = await runningBlogDbContext.Category.SingleOrDefaultAsync<Category>(cRepository => cRepository.Id == id);
+            return category;
+        }
+
+        //Many to many problem solution
+        public Task<Category> Get(int leftTableId, int rightTableID) 
         {
             throw new NotImplementedException();
         }
@@ -42,9 +50,17 @@ namespace RunningBlog.Data
             return await runningBlogDbContext.Category.ToListAsync<Category>();
         }
 
-        public Task Update(Category entity)
+        public Task<List<Category>> GetAllWithSameIdAsync(int id)
         {
             throw new NotImplementedException();
+        }
+
+        public async Task Update(Category entity)
+        {
+
+            Category origCategory = await runningBlogDbContext.Category.AsNoTracking<Category>().SingleOrDefaultAsync(c => c.Id == entity.Id);
+            runningBlogDbContext.Entry<Category>(origCategory).Context.Update<Category>(entity);
+            await runningBlogDbContext.SaveChangesAsync();
         }
     }
 }

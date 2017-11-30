@@ -1,0 +1,636 @@
+﻿PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install --force-latest
+bower bootstrap#4.0.0       not-cached https://github.com/twbs/bootstrap.git#4.0.0
+bower bootstrap#4.0.0          resolve https://github.com/twbs/bootstrap.git#4.0.0
+bower bootstrap#4.0.0     ENORESTARGET No tag found that was able to satisfy 4.0.0
+Additional error details:
+Available versions in https://github.com/twbs/bootstrap.git: 4.0.0-beta.2, 4.0.0-beta, 4.0.0-alpha.6, 4.0.0-alpha.5, 4.0.0-alpha.4, 4.0.0-alpha.3, 4.0.0-alpha.2, 4.0.0-alpha, 3.3.7, 3.3.6, 3.3.5, 3.3.4, 3.3.2, 3.3.1, 3.3.0, 3.2.0, 3.1.1, 3.1.0, 3.0.3, 3.0.2, 3.0.1, 3.0.0, 3.0.0-rc1, 3.0.0-rc.2, 2.3.2, 2.3.1, 2.3.0, 2.2.2, 2.2.1, 2.2.0, 2.1.1, 2.1.0, 2.0.4, 2.0.3, 2.0.2, 2.0.1, 2.0.0, 1.4.0, 1.3.0, 1.2.0, 1.1.1, 1.1.0, 1.0.0
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install --force-latest
+bower bootstrap#4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2       EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-10452-Xpqg7t\bower.json
+Additional error details:
+Unexpected token @
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install --force-latest
+bower bootstrap#4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2       EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-13756-0Sa6iU\bower.json
+Additional error details:
+Unexpected token @
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install --force-latest
+bower bootstrap#4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2         progress Receiving objects:  40% (196/489), 484.00 KiB | 954.00 KiB/s
+bower bootstrap#4.0.0-beta.2         progress Resolving deltas: 100% (56/56), done.
+bower bootstrap#4.0.0-beta.2       EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-4336-Kteuw5\bower.json
+Additional error details:
+Unexpected token @
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install --force-latest
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install --force-latest
+bower bootstrap#4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2       EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-7900-EPJ196\bower.json
+Additional error details:
+Unexpected token @
+bower bootstrap#4.0.0-beta.2         progress Receiving objects:  26% (128/489), 276.00 KiB | 534.00 KiB/s
+bower bootstrap#4.0.0-beta.2         progress Receiving objects:  59% (289/489), 716.00 KiB | 471.00 KiB/s
+bower bootstrap#4.0.0-beta.2         progress Resolving deltas: 100% (56/56), done.
+bower bootstrap#4.0.0-beta.2       EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-1852-m6xpef\bower.json
+Additional error details:
+Unexpected token @
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install --force-latest
+bower bootstrap#4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2         progress Receiving objects:   0% (1/489)
+bower bootstrap#4.0.0-beta.2         progress Receiving objects:  24% (118/489), 44.00 KiB | 76.00 KiB/s
+bower bootstrap#4.0.0-beta.2         progress Receiving objects:  24% (119/489), 148.00 KiB | 140.00 KiB/s
+bower bootstrap#4.0.0-beta.2         progress Receiving objects:  25% (123/489), 356.00 KiB | 123.00 KiB/s
+bower bootstrap#4.0.0-beta.2         progress Receiving objects:  39% (191/489), 636.00 KiB | 162.00 KiB/s
+bower bootstrap#4.0.0-beta.2         progress Receiving objects:  47% (230/489), 948.00 KiB | 191.00 KiB/s
+bower bootstrap#4.0.0-beta.2         progress Receiving objects:  59% (289/489), 948.00 KiB | 191.00 KiB/s
+bower bootstrap#4.0.0-beta.2         progress Receiving objects:  60% (294/489), 1.26 MiB | 230.00 KiB/s
+bower bootstrap#4.0.0-beta.2         progress Receiving objects:  75% (367/489), 1.86 MiB | 330.00 KiB/s
+bower bootstrap#4.0.0-beta.2         progress Resolving deltas: 100% (56/56), done.
+bower bootstrap#4.0.0-beta.2       EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-12264-RVKqwT\bower.json
+Additional error details:
+Unexpected token @
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install --force-latest
+bower bootstrap#4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#4.0.0-beta.2
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install --force-latest
+bower bootstrap#4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2         progress Receiving objects:  25% (123/489)
+bower bootstrap#4.0.0-beta.2         progress Receiving objects:  61% (299/489), 1.06 MiB | 1002.00 KiB/s
+bower bootstrap#4.0.0-beta.2         progress Resolving deltas: 100% (56/56), done.
+bower bootstrap#4.0.0-beta.2         progress Checking out files:  49% (210/427)
+bower bootstrap#4.0.0-beta.2         progress Checking out files:  86% (368/427)
+bower bootstrap#4.0.0-beta.2       EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-10252-ci4whn\bower.json
+Additional error details:
+Unexpected token @
+bower bootstrap#4.0.0-beta.2         progress Checking out files:  28% (121/427)
+bower bootstrap#4.0.0-beta.2         progress Checking out files:  52% (223/427)
+bower bootstrap#4.0.0-beta.2         progress Checking out files:  69% (295/427)
+bower bootstrap#4.0.0-beta.2         progress Checking out files:  79% (338/427)
+bower bootstrap#4.0.0-beta.2         progress Checking out files:  89% (381/427)
+bower bootstrap#4.0.0-beta.2         progress Checking out files: 100% (427/427), done.
+bower bootstrap#4.0.0-beta.2       EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-11544-J0C262\bower.json
+Additional error details:
+Unexpected token @
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" update  bootstrap --force-latest
+bower bootstrap#4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2       EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-11516-XdxVUw\bower.json
+Additional error details:
+Unexpected token @
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install --force-latest
+bower bootstrap#4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2       EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-9200-Qr5wku\bower.json
+Additional error details:
+Unexpected token @
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install --force-latest
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install --force-latest
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install --force-latest
+bower bootstrap#4.0         not-cached https://github.com/twbs/bootstrap.git#4.0
+bower bootstrap#4.0            resolve https://github.com/twbs/bootstrap.git#4.0
+bower bootstrap#4.0           checkout v4.0.0-beta.2
+bower bootstrap#4.0         not-cached https://github.com/twbs/bootstrap.git#4.0
+bower bootstrap#4.0            resolve https://github.com/twbs/bootstrap.git#4.0
+bower bootstrap#4.0           checkout v4.0.0-beta.2
+bower bootstrap#4.0         EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-2188-8OH5Mw\bower.json
+Additional error details:
+Unexpected token @
+bower bootstrap#4.0         EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-4216-XB3DKC\bower.json
+Additional error details:
+Unexpected token @
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install bootstrap#v4.0.0-beta.2 --force-latest --save
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install bootstrap#v4.0.0-beta.2 --force-latest --save
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install bootstrap#v4.0.0-beta.2 --force-latest --save
+bower bootstrap#v4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#4.0                 not-cached https://github.com/twbs/bootstrap.git#4.0
+bower bootstrap#4.0                    resolve https://github.com/twbs/bootstrap.git#4.0
+bower bootstrap#v4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#4.0                 not-cached https://github.com/twbs/bootstrap.git#4.0
+bower bootstrap#4.0                    resolve https://github.com/twbs/bootstrap.git#4.0
+bower bootstrap#4.0                   checkout v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2         checkout v4.0.0-beta.2
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install bootstrap#v4.0.0-beta.2 --force-latest --save
+bower bootstrap#v4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#4.0                 not-cached https://github.com/twbs/bootstrap.git#4.0
+bower bootstrap#4.0                    resolve https://github.com/twbs/bootstrap.git#4.0
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install bootstrap#v4.0.0-beta.2 --force-latest --save
+bower bootstrap#4.0                   checkout v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#4.0                   checkout v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#4.0                 not-cached https://github.com/twbs/bootstrap.git#4.0
+bower bootstrap#4.0                    resolve https://github.com/twbs/bootstrap.git#4.0
+bower bootstrap#v4.0.0-beta.2         progress Receiving objects: 100% (489/489), 2.30 MiB | 5.01 MiB/s, done.
+bower bootstrap#v4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#4.0                 not-cached https://github.com/twbs/bootstrap.git#4.0
+bower bootstrap#4.0                    resolve https://github.com/twbs/bootstrap.git#4.0
+bower bootstrap#4.0                   progress Receiving objects:  68% (333/489)
+bower bootstrap#v4.0.0-beta.2         progress Resolving deltas: 100% (56/56), done.
+bower bootstrap#4.0                   checkout v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#4.0                   progress Resolving deltas: 100% (56/56), done.
+bower bootstrap#v4.0.0-beta.2         progress Checking out files:  37% (159/427)
+bower bootstrap#4.0                   progress Receiving objects:  60% (294/489), 1.19 MiB | 2.34 MiB/s
+bower bootstrap#v4.0.0-beta.2         progress Receiving objects:  59% (289/489)
+bower bootstrap#4.0                   progress Checking out files:  29% (124/427)
+bower bootstrap#v4.0.0-beta.2         progress Checking out files:  59% (252/427)
+bower bootstrap#4.0                   progress Resolving deltas: 100% (56/56), done.
+bower bootstrap#v4.0.0-beta.2         progress Resolving deltas: 100% (56/56), done.
+bower bootstrap#4.0                   progress Checking out files:  59% (252/427)
+bower bootstrap#4.0                   checkout v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#4.0                   progress Checking out files: 100% (427/427), done.
+bower bootstrap#v4.0.0-beta.2       EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-5700-QzcXLV\bower.json
+Additional error details:
+Unexpected token @
+bower bootstrap#4.0                   progress Receiving objects:  43% (211/489)
+bower bootstrap#v4.0.0-beta.2         progress Checking out files:  34% (146/427)
+bower bootstrap#4.0                   progress Checking out files:  41% (176/427)
+bower bootstrap#4.0                   progress Resolving deltas: 100% (56/56), done.
+bower bootstrap#v4.0.0-beta.2         progress Checking out files:  64% (274/427)
+bower bootstrap#4.0                   progress Checking out files:  53% (227/427)
+bower bootstrap#v4.0.0-beta.2         progress Receiving objects:  59% (289/489)
+bower bootstrap#v4.0.0-beta.2         progress Checking out files:  81% (346/427)
+bower bootstrap#4.0                   progress Checking out files:  72% (308/427)
+bower bootstrap#v4.0.0-beta.2         progress Resolving deltas: 100% (56/56), done.
+bower bootstrap#4.0                   progress Checking out files:  85% (363/427)
+bower bootstrap#4.0                   progress Checking out files:  11% (49/427)
+bower bootstrap#4.0                   progress Checking out files: 100% (427/427), done.
+bower bootstrap#v4.0.0-beta.2       EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-11876-4387Rb\bower.json
+Additional error details:
+Unexpected token @
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" uninstall bootstrap --save --save-dev --force
+bower bootstrap#4.0                   progress Checking out files:  44% (188/427)
+bower bootstrap#4.0                   progress Checking out files:  75% (321/427)
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" uninstall bootstrap --save --save-dev --force
+bower bootstrap#v4.0.0-beta.2         progress Checking out files:  32% (140/427)
+bower bootstrap#4.0                   progress Checking out files: 100% (427/427), done.
+bower bootstrap#v4.0.0-beta.2         progress Checking out files:  73% (312/427)
+bower bootstrap#v4.0.0-beta.2         progress Receiving objects:  39% (191/489)
+bower bootstrap#4.0                   progress Receiving objects:  43% (211/489)
+bower bootstrap#4.0                 EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-11636-apBK4z\bower.json
+Additional error details:
+Unexpected token @
+bower bootstrap#v4.0.0-beta.2         progress Resolving deltas: 100% (56/56), done.
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" uninstall bootstrap --save --save-dev --force
+bower bootstrap#4.0                   progress Resolving deltas: 100% (56/56), done.
+bower bootstrap#v4.0.0-beta.2         progress Checking out files:  31% (135/427)
+bower bootstrap#4.0                   progress Checking out files:  32% (139/427)
+bower bootstrap#4.0                   progress Receiving objects:  43% (211/489)
+bower bootstrap#v4.0.0-beta.2         progress Checking out files:  58% (248/427)
+bower bootstrap#v4.0.0-beta.2         progress Receiving objects:  38% (186/489)
+bower bootstrap#4.0                   progress Checking out files:  58% (248/427)
+bower bootstrap#4.0                   progress Resolving deltas: 100% (56/56), done.
+bower bootstrap#v4.0.0-beta.2         progress Checking out files:  75% (321/427)
+bower bootstrap#v4.0.0-beta.2         progress Resolving deltas: 100% (56/56), done.
+bower bootstrap#4.0                   progress Checking out files:  84% (359/427)
+bower bootstrap#v4.0.0-beta.2         progress Checking out files: 100% (427/427), done.
+bower bootstrap#v4.0.0-beta.2       EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-9880-PV6Ks4\bower.json
+Additional error details:
+Unexpected token @
+bower bootstrap#v4.0.0-beta.2         progress Checking out files:  32% (138/427)
+bower bootstrap#4.0                   progress Checking out files:  32% (140/427)
+bower uninstall     bootstrap
+bower bootstrap#v4.0.0-beta.2         progress Checking out files:  60% (257/427)
+bower bootstrap#4.0                   progress Checking out files:  59% (253/427)
+bower not-installed 'bootstrap' cannot be uninstalled as it is not currently installed
+bower bootstrap#4.0                 EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-4016-P0cWDZ\bower.json
+Additional error details:
+Unexpected token @
+bower not-installed 'bootstrap' cannot be uninstalled as it is not currently installed
+bower bootstrap#v4.0.0-beta.2         progress Checking out files:  91% (389/427)
+bower bootstrap#4.0                   progress Checking out files:  98% (419/427)
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install bootstrap#v4.0.0-beta.2 --force-latest --save
+bower bootstrap#v4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install bootstrap#v4.0.0-beta.2 --force-latest --save
+bower bootstrap#v4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2         progress Receiving objects:  44% (216/489)
+bower bootstrap#v4.0.0-beta.2         progress Resolving deltas: 100% (56/56), done.
+bower bootstrap#v4.0.0-beta.2       EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-5256-3BXf2P\bower.json
+Additional error details:
+Unexpected token @
+bower bootstrap#v4.0.0-beta.2         progress Receiving objects:  60% (294/489)
+bower bootstrap#v4.0.0-beta.2         progress Resolving deltas: 100% (56/56), done.
+bower bootstrap#v4.0.0-beta.2       EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-2912-QhbdLu\bower.json
+Additional error details:
+Unexpected token @
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install --force-latest
+bower bootstrap#3.3.7           cached https://github.com/twbs/bootstrap.git#3.3.7
+bower bootstrap#3.3.7         validate 3.3.7 against https://github.com/twbs/bootstrap.git#3.3.7
+bower bootstrap#3.3.7          install bootstrap#3.3.7
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install bootstrap#3.3.7 --force-latest
+bootstrap#3.3.7 wwwroot\lib\bootstrap
+└── jquery#2.2.0
+bower bootstrap#3.3.7           cached https://github.com/twbs/bootstrap.git#3.3.7
+bower bootstrap#3.3.7         validate 3.3.7 against https://github.com/twbs/bootstrap.git#3.3.7
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install --force-latest
+bower                           ENOENT No bower.json present
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install --force-latest
+bower bootstrap#v4.0.0-alpha.3       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-alpha.3
+bower bootstrap#v4.0.0-alpha.3          resolve https://github.com/twbs/bootstrap.git#v4.0.0-alpha.3
+bower bootstrap#v4.0.0-alpha.3         checkout v4.0.0-alpha.3
+bower jquery#1.9.1 - 3               not-cached https://github.com/jquery/jquery-dist.git#1.9.1 - 3
+bower jquery#1.9.1 - 3                  resolve https://github.com/jquery/jquery-dist.git#1.9.1 - 3
+bower jquery#>=1.8                   not-cached https://github.com/jquery/jquery-dist.git#>=1.8
+bower jquery#>=1.8                      resolve https://github.com/jquery/jquery-dist.git#>=1.8
+bower jquery#>= 1.7.2                not-cached https://github.com/jquery/jquery-dist.git#>= 1.7.2
+bower jquery#>= 1.7.2                   resolve https://github.com/jquery/jquery-dist.git#>= 1.7.2
+bower jquery#>= 1.7.2                  checkout 3.2.1
+bower jquery#>=1.8                     checkout 3.2.1
+bower jquery#1.9.1 - 3                 checkout 3.2.1
+bower bootstrap#v4.0.0-alpha.3         resolved https://github.com/twbs/bootstrap.git#4.0.0-alpha.3
+bower jquery#>= 1.7.2                  resolved https://github.com/jquery/jquery-dist.git#3.2.1
+bower jquery#>=1.8                     resolved https://github.com/jquery/jquery-dist.git#3.2.1
+bower jquery#1.9.1 - 3                 resolved https://github.com/jquery/jquery-dist.git#3.2.1
+bower tether#^1.1.1                  not-cached https://github.com/HubSpot/tether.git#^1.1.1
+bower tether#^1.1.1                     resolve https://github.com/HubSpot/tether.git#^1.1.1
+bower tether#^1.1.1                    checkout v1.4.3
+bower tether#^1.1.1                    resolved https://github.com/HubSpot/tether.git#1.4.3
+bower bootstrap#v4.0.0-alpha.3          install bootstrap#4.0.0-alpha.3
+bower jquery#>= 1.7.2                   install jquery#3.2.1
+bower tether#^1.1.1                     install tether#1.4.3
+bootstrap#4.0.0-alpha.3 wwwroot\lib\bootstrap
+├── jquery#3.2.1
+└── tether#1.4.3
+jquery#3.2.1 wwwroot\lib\jquery
+tether#1.4.3 wwwroot\lib\tether
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install --force-latest
+bower bootstrap#v4              cached https://github.com/twbs/bootstrap.git#4.0.0-alpha.3
+bower bootstrap#v4            validate 4.0.0-alpha.3 against https://github.com/twbs/bootstrap.git#v4
+bower bootstrap#v4                 new version for https://github.com/twbs/bootstrap.git#v4
+bower bootstrap#v4             resolve https://github.com/twbs/bootstrap.git#v4
+bower bootstrap#v4            checkout v4.0.0-beta.2
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install --force-latest
+bower bootstrap#v4          EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-11380-49TlFm\bower.json
+Additional error details:
+Unexpected token @
+bower bootstrap#v4              cached https://github.com/twbs/bootstrap.git#4.0.0-alpha.3
+bower bootstrap#v4            validate 4.0.0-alpha.3 against https://github.com/twbs/bootstrap.git#v4
+bower bootstrap#v4                 new version for https://github.com/twbs/bootstrap.git#v4
+bower bootstrap#v4             resolve https://github.com/twbs/bootstrap.git#v4
+bower bootstrap#v4            checkout v4.0.0-beta.2
+bower bootstrap#v4          EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-9188-tkehCB\bower.json
+Additional error details:
+Unexpected token @
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install --force-latest
+bower bootstrap#v4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install --force-latest
+bower bootstrap#v4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2       EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-3852-7HCoP9\bower.json
+Additional error details:
+Unexpected token @
+bower bootstrap#v4.0.0-beta.2       EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-7328-uLSZtn\bower.json
+Additional error details:
+Unexpected token @
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install bootstrap#v4.0.0-beta.2 --force-latest --save
+bower bootstrap#v4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install bootstrap#v4.0.0-beta.2 --force-latest --save
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install bootstrap#v4.0.0-beta.2 --force-latest --save
+bower bootstrap#v4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2         progress Receiving objects:  70% (343/489), 1.73 MiB | 3.11 MiB/s
+bower bootstrap#v4.0.0-beta.2         progress Receiving objects:  59% (289/489)
+bower bootstrap#v4.0.0-beta.2         progress Resolving deltas: 100% (56/56), done.
+bower bootstrap#v4.0.0-beta.2         progress Resolving deltas: 100% (56/56), done.
+bower bootstrap#v4.0.0-beta.2         progress Checking out files:  46% (197/427)
+bower bootstrap#v4.0.0-beta.2         progress Checking out files:  41% (179/427)
+bower bootstrap#v4.0.0-beta.2         progress Checking out files:  73% (312/427)
+bower bootstrap#v4.0.0-beta.2         progress Checking out files:  62% (265/427)
+bower bootstrap#v4.0.0-beta.2         progress Checking out files:  89% (381/427)
+bower bootstrap#v4.0.0-beta.2       EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-14124-2SsSPs\bower.json
+Additional error details:
+Unexpected token @
+bower bootstrap#v4.0.0-beta.2         progress Receiving objects:  59% (289/489)
+bower bootstrap#v4.0.0-beta.2         progress Receiving objects:  59% (289/489)
+bower bootstrap#v4.0.0-beta.2         progress Resolving deltas: 100% (56/56), done.
+bower bootstrap#v4.0.0-beta.2         progress Resolving deltas: 100% (56/56), done.
+bower bootstrap#v4.0.0-beta.2         progress Checking out files:  28% (121/427)
+bower bootstrap#v4.0.0-beta.2         progress Receiving objects:  48% (235/489), 916.00 KiB | 1.78 MiB/s
+bower bootstrap#v4.0.0-beta.2         progress Receiving objects:  44% (216/489)
+bower bootstrap#v4.0.0-beta.2         progress Checking out files:  22% (94/427)
+bower bootstrap#v4.0.0-beta.2         progress Checking out files:  47% (204/427)
+bower bootstrap#v4.0.0-beta.2         progress Resolving deltas: 100% (56/56), done.
+bower bootstrap#v4.0.0-beta.2         progress Resolving deltas: 100% (56/56), done.
+bower bootstrap#v4.0.0-beta.2         progress Checking out files:  44% (189/427)
+bower bootstrap#v4.0.0-beta.2         progress Checking out files:  77% (329/427)
+bower bootstrap#v4.0.0-beta.2         progress Checking out files:  72% (308/427)
+bower bootstrap#v4.0.0-beta.2         progress Checking out files:  24% (103/427)
+bower bootstrap#v4.0.0-beta.2         progress Checking out files:  25% (111/427)
+bower bootstrap#v4.0.0-beta.2         progress Checking out files:  97% (415/427)
+bower bootstrap#v4.0.0-beta.2       EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-2860-nlDPRh\bower.json
+Additional error details:
+Unexpected token @
+bower bootstrap#v4.0.0-beta.2         progress Checking out files:  47% (201/427)
+bower bootstrap#v4.0.0-beta.2         progress Checking out files:  55% (235/427)
+bower bootstrap#v4.0.0-beta.2         progress Checking out files:  77% (329/427)
+bower bootstrap#v4.0.0-beta.2         progress Checking out files:  86% (368/427)
+bower bootstrap#v4.0.0-beta.2       EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-13208-oC3QQc\bower.json
+Additional error details:
+Unexpected token @
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install --force-latest
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install --force-latest
+bower bootstrap#4.0.0-beta2 not-cached https://github.com/twbs/bootstrap.git#4.0.0-beta2
+bower bootstrap#4.0.0-beta2    resolve https://github.com/twbs/bootstrap.git#4.0.0-beta2
+bower bootstrap#4.0.0-beta2     ENORESTARGET No tag found that was able to satisfy 4.0.0-beta2
+Additional error details:
+Available versions in https://github.com/twbs/bootstrap.git: 4.0.0-beta.2, 4.0.0-beta, 4.0.0-alpha.6, 4.0.0-alpha.5, 4.0.0-alpha.4, 4.0.0-alpha.3, 4.0.0-alpha.2, 4.0.0-alpha, 3.3.7, 3.3.6, 3.3.5, 3.3.4, 3.3.2, 3.3.1, 3.3.0, 3.2.0, 3.1.1, 3.1.0, 3.0.3, 3.0.2, 3.0.1, 3.0.0, 3.0.0-rc1, 3.0.0-rc.2, 2.3.2, 2.3.1, 2.3.0, 2.2.2, 2.2.1, 2.2.0, 2.1.1, 2.1.0, 2.0.4, 2.0.3, 2.0.2, 2.0.1, 2.0.0, 1.4.0, 1.3.0, 1.2.0, 1.1.1, 1.1.0, 1.0.0
+bower bootstrap#4.0.0-beta2 not-cached https://github.com/twbs/bootstrap.git#4.0.0-beta2
+bower bootstrap#4.0.0-beta2    resolve https://github.com/twbs/bootstrap.git#4.0.0-beta2
+bower bootstrap#4.0.0-beta2     ENORESTARGET No tag found that was able to satisfy 4.0.0-beta2
+Additional error details:
+Available versions in https://github.com/twbs/bootstrap.git: 4.0.0-beta.2, 4.0.0-beta, 4.0.0-alpha.6, 4.0.0-alpha.5, 4.0.0-alpha.4, 4.0.0-alpha.3, 4.0.0-alpha.2, 4.0.0-alpha, 3.3.7, 3.3.6, 3.3.5, 3.3.4, 3.3.2, 3.3.1, 3.3.0, 3.2.0, 3.1.1, 3.1.0, 3.0.3, 3.0.2, 3.0.1, 3.0.0, 3.0.0-rc1, 3.0.0-rc.2, 2.3.2, 2.3.1, 2.3.0, 2.2.2, 2.2.1, 2.2.0, 2.1.1, 2.1.0, 2.0.4, 2.0.3, 2.0.2, 2.0.1, 2.0.0, 1.4.0, 1.3.0, 1.2.0, 1.1.1, 1.1.0, 1.0.0
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install --force-latest
+bower bootstrap#4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2       EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-220-MbT1rs\bower.json
+Additional error details:
+Unexpected token @
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install --force-latest
+bower                       EMALFORMED Failed to read C:\Users\tomva\source\repos\RunningBlog\RunningBlog\bower.json
+Additional error details:
+Unexpected token }
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install --force-latest
+bower bootstrap#4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#4.0.0-beta.2       EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-9328-VtMoxx\bower.json
+Additional error details:
+Unexpected token @
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install bootstrap#v4.0.0-beta.2 --force-latest --save
+bower bootstrap#v4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2       EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-1756-1zSJDB\bower.json
+Additional error details:
+Unexpected token @
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install --force-latest
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" uninstall bootstrap --save --save-dev
+bower uninstall     bootstrap
+bower uninstall     tether
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" uninstall jquery-validation-unobtrusive --save --save-dev
+bower uninstall     jquery-validation-unobtrusive
+bower uninstall     jquery-validation
+bower uninstall     jquery
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install --force-latest
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install bootstrap#v4.0.0-alpha.6 --force-latest --save
+bower bootstrap#v4.0.0-alpha.6       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-alpha.6
+bower bootstrap#v4.0.0-alpha.6          resolve https://github.com/twbs/bootstrap.git#v4.0.0-alpha.6
+bower bootstrap#v4.0.0-alpha.6         checkout v4.0.0-alpha.6
+bower bootstrap#v4.0.0-alpha.6         resolved https://github.com/twbs/bootstrap.git#4.0.0-alpha.6
+bower tether#^1.4.0                      cached https://github.com/HubSpot/tether.git#1.4.3
+bower tether#^1.4.0                    validate 1.4.3 against https://github.com/HubSpot/tether.git#^1.4.0
+bower jquery#>=1.9.1                     cached https://github.com/jquery/jquery-dist.git#3.2.1
+bower jquery#>=1.9.1                   validate 3.2.1 against https://github.com/jquery/jquery-dist.git#>=1.9.1
+bower bootstrap#v4.0.0-alpha.6          install bootstrap#4.0.0-alpha.6
+bower jquery#>=1.9.1                    install jquery#3.2.1
+bower tether#^1.4.0                     install tether#1.4.3
+bootstrap#4.0.0-alpha.6 wwwroot\lib\bootstrap
+├── jquery#3.2.1
+└── tether#1.4.3
+jquery#3.2.1 wwwroot\lib\jquery
+tether#1.4.3 wwwroot\lib\tether
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install --force-latest
+bower bootstrap#v4.0.0-beta2       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta2
+bower bootstrap#v4.0.0-beta2          resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta2
+bower bootstrap#v4.0.0-beta2     ENORESTARGET No tag found that was able to satisfy v4.0.0-beta2
+Additional error details:
+Available versions in https://github.com/twbs/bootstrap.git: 4.0.0-beta.2, 4.0.0-beta, 4.0.0-alpha.6, 4.0.0-alpha.5, 4.0.0-alpha.4, 4.0.0-alpha.3, 4.0.0-alpha.2, 4.0.0-alpha, 3.3.7, 3.3.6, 3.3.5, 3.3.4, 3.3.2, 3.3.1, 3.3.0, 3.2.0, 3.1.1, 3.1.0, 3.0.3, 3.0.2, 3.0.1, 3.0.0, 3.0.0-rc1, 3.0.0-rc.2, 2.3.2, 2.3.1, 2.3.0, 2.2.2, 2.2.1, 2.2.0, 2.1.1, 2.1.0, 2.0.4, 2.0.3, 2.0.2, 2.0.1, 2.0.0, 1.4.0, 1.3.0, 1.2.0, 1.1.1, 1.1.0, 1.0.0
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install --force-latest
+bower bootstrap#v4.0.0-beta2       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta2
+bower bootstrap#v4.0.0-beta2          resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta2
+bower bootstrap#v4.0.0-beta2     ENORESTARGET No tag found that was able to satisfy v4.0.0-beta2
+Additional error details:
+Available versions in https://github.com/twbs/bootstrap.git: 4.0.0-beta.2, 4.0.0-beta, 4.0.0-alpha.6, 4.0.0-alpha.5, 4.0.0-alpha.4, 4.0.0-alpha.3, 4.0.0-alpha.2, 4.0.0-alpha, 3.3.7, 3.3.6, 3.3.5, 3.3.4, 3.3.2, 3.3.1, 3.3.0, 3.2.0, 3.1.1, 3.1.0, 3.0.3, 3.0.2, 3.0.1, 3.0.0, 3.0.0-rc1, 3.0.0-rc.2, 2.3.2, 2.3.1, 2.3.0, 2.2.2, 2.2.1, 2.2.0, 2.1.1, 2.1.0, 2.0.4, 2.0.3, 2.0.2, 2.0.1, 2.0.0, 1.4.0, 1.3.0, 1.2.0, 1.1.1, 1.1.0, 1.0.0
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" update  bootstrap --force-latest
+bower bootstrap#v4.0.0-beta2       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta2
+bower bootstrap#v4.0.0-beta2          resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta2
+bower bootstrap#v4.0.0-beta2     ENORESTARGET No tag found that was able to satisfy v4.0.0-beta2
+Additional error details:
+Available versions in https://github.com/twbs/bootstrap.git: 4.0.0-beta.2, 4.0.0-beta, 4.0.0-alpha.6, 4.0.0-alpha.5, 4.0.0-alpha.4, 4.0.0-alpha.3, 4.0.0-alpha.2, 4.0.0-alpha, 3.3.7, 3.3.6, 3.3.5, 3.3.4, 3.3.2, 3.3.1, 3.3.0, 3.2.0, 3.1.1, 3.1.0, 3.0.3, 3.0.2, 3.0.1, 3.0.0, 3.0.0-rc1, 3.0.0-rc.2, 2.3.2, 2.3.1, 2.3.0, 2.2.2, 2.2.1, 2.2.0, 2.1.1, 2.1.0, 2.0.4, 2.0.3, 2.0.2, 2.0.1, 2.0.0, 1.4.0, 1.3.0, 1.2.0, 1.1.1, 1.1.0, 1.0.0
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install bootstrap#v4.0.0-beta.2 --force-latest --save
+bower bootstrap#v4.0.0-beta2       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta2
+bower bootstrap#v4.0.0-beta2          resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta2
+bower bootstrap#v4.0.0-beta.2      not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2         resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2        checkout v4.0.0-beta.2
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install bootstrap#v4.0.0-beta.2 --force-latest --save
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install bootstrap#v4.0.0-beta.2 --force-latest --save
+bower bootstrap#v4.0.0-beta.2        progress Receiving objects:  15% (74/489), 28.00 KiB | 42.00 KiB/s
+bower bootstrap#v4.0.0-beta.2        progress Receiving objects:  24% (118/489), 60.00 KiB | 50.00 KiB/s
+bower bootstrap#v4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta2        not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta2
+bower bootstrap#v4.0.0-beta2           resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta2
+bower bootstrap#v4.0.0-beta.2        progress Receiving objects:  24% (119/489), 148.00 KiB | 67.00 KiB/s
+bower bootstrap#v4.0.0-beta.2        progress Receiving objects:  27% (133/489), 340.00 KiB | 104.00 KiB/s
+bower bootstrap#v4.0.0-beta2       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta2
+bower bootstrap#v4.0.0-beta2          resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta2
+bower bootstrap#v4.0.0-beta.2      not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2         resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2        progress Receiving objects:  47% (230/489), 756.00 KiB | 177.00 KiB/s
+bower bootstrap#v4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2        progress Receiving objects:  61% (299/489), 1.50 MiB | 324.00 KiB/s
+bower bootstrap#v4.0.0-beta.2        progress Resolving deltas: 100% (56/56), done.
+bower bootstrap#v4.0.0-beta.2        checkout v4.0.0-beta.2
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install bootstrap#v4.0.0-beta.2 --force-latest --save
+bower bootstrap#v4.0.0-beta2     ENORESTARGET No tag found that was able to satisfy v4.0.0-beta2
+Additional error details:
+Available versions in https://github.com/twbs/bootstrap.git: 4.0.0-beta.2, 4.0.0-beta, 4.0.0-alpha.6, 4.0.0-alpha.5, 4.0.0-alpha.4, 4.0.0-alpha.3, 4.0.0-alpha.2, 4.0.0-alpha, 3.3.7, 3.3.6, 3.3.5, 3.3.4, 3.3.2, 3.3.1, 3.3.0, 3.2.0, 3.1.1, 3.1.0, 3.0.3, 3.0.2, 3.0.1, 3.0.0, 3.0.0-rc1, 3.0.0-rc.2, 2.3.2, 2.3.1, 2.3.0, 2.2.2, 2.2.1, 2.2.0, 2.1.1, 2.1.0, 2.0.4, 2.0.3, 2.0.2, 2.0.1, 2.0.0, 1.4.0, 1.3.0, 1.2.0, 1.1.1, 1.1.0, 1.0.0
+bower bootstrap#v4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta2        not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta2
+bower bootstrap#v4.0.0-beta2           resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta2
+bower bootstrap#v4.0.0-beta.2         progress remote: Compressing objects:  23% (109/471)
+bower bootstrap#v4.0.0-beta.2         progress Receiving objects:  24% (118/489)
+bower bootstrap#v4.0.0-beta.2        progress remote: Compressing objects:  84% (396/471)
+bower bootstrap#v4.0.0-beta.2         progress Receiving objects:  39% (191/489), 484.00 KiB | 468.00 KiB/s
+bower bootstrap#v4.0.0-beta.2        progress Receiving objects:  25% (123/489), 100.00 KiB | 190.00 KiB/s
+bower bootstrap#v4.0.0-beta.2         progress Receiving objects:  62% (304/489), 1.85 MiB | 736.00 KiB/s
+bower bootstrap#v4.0.0-beta.2        progress Resolving deltas: 100% (56/56), done.
+bower bootstrap#v4.0.0-beta.2         progress Resolving deltas: 100% (56/56), done.
+bower bootstrap#v4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta2      ENORESTARGET No tag found that was able to satisfy v4.0.0-beta2
+Additional error details:
+Available versions in https://github.com/twbs/bootstrap.git: 4.0.0-beta.2, 4.0.0-beta, 4.0.0-alpha.6, 4.0.0-alpha.5, 4.0.0-alpha.4, 4.0.0-alpha.3, 4.0.0-alpha.2, 4.0.0-alpha, 3.3.7, 3.3.6, 3.3.5, 3.3.4, 3.3.2, 3.3.1, 3.3.0, 3.2.0, 3.1.1, 3.1.0, 3.0.3, 3.0.2, 3.0.1, 3.0.0, 3.0.0-rc1, 3.0.0-rc.2, 2.3.2, 2.3.1, 2.3.0, 2.2.2, 2.2.1, 2.2.0, 2.1.1, 2.1.0, 2.0.4, 2.0.3, 2.0.2, 2.0.1, 2.0.0, 1.4.0, 1.3.0, 1.2.0, 1.1.1, 1.1.0, 1.0.0
+bower bootstrap#v4.0.0-beta2     ENORESTARGET No tag found that was able to satisfy v4.0.0-beta2
+Additional error details:
+Available versions in https://github.com/twbs/bootstrap.git: 4.0.0-beta.2, 4.0.0-beta, 4.0.0-alpha.6, 4.0.0-alpha.5, 4.0.0-alpha.4, 4.0.0-alpha.3, 4.0.0-alpha.2, 4.0.0-alpha, 3.3.7, 3.3.6, 3.3.5, 3.3.4, 3.3.2, 3.3.1, 3.3.0, 3.2.0, 3.1.1, 3.1.0, 3.0.3, 3.0.2, 3.0.1, 3.0.0, 3.0.0-rc1, 3.0.0-rc.2, 2.3.2, 2.3.1, 2.3.0, 2.2.2, 2.2.1, 2.2.0, 2.1.1, 2.1.0, 2.0.4, 2.0.3, 2.0.2, 2.0.1, 2.0.0, 1.4.0, 1.3.0, 1.2.0, 1.1.1, 1.1.0, 1.0.0
+bower bootstrap#v4.0.0-beta.2         progress Receiving objects:  31% (152/489), 476.00 KiB | 463.00 KiB/s
+bower bootstrap#v4.0.0-beta.2         progress Resolving deltas: 100% (56/56), done.
+bower bootstrap#v4.0.0-beta2      ENORESTARGET No tag found that was able to satisfy v4.0.0-beta2
+Additional error details:
+Available versions in https://github.com/twbs/bootstrap.git: 4.0.0-beta.2, 4.0.0-beta, 4.0.0-alpha.6, 4.0.0-alpha.5, 4.0.0-alpha.4, 4.0.0-alpha.3, 4.0.0-alpha.2, 4.0.0-alpha, 3.3.7, 3.3.6, 3.3.5, 3.3.4, 3.3.2, 3.3.1, 3.3.0, 3.2.0, 3.1.1, 3.1.0, 3.0.3, 3.0.2, 3.0.1, 3.0.0, 3.0.0-rc1, 3.0.0-rc.2, 2.3.2, 2.3.1, 2.3.0, 2.2.2, 2.2.1, 2.2.0, 2.1.1, 2.1.0, 2.0.4, 2.0.3, 2.0.2, 2.0.1, 2.0.0, 1.4.0, 1.3.0, 1.2.0, 1.1.1, 1.1.0, 1.0.0
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install bootstrap#v4.0.0-beta.2 --force-latest --save
+bower bootstrap#v4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2         progress Receiving objects:  60% (294/489), 1.26 MiB | 836.00 KiB/s
+bower bootstrap#v4.0.0-beta.2         progress Receiving objects:  61% (299/489), 1.54 MiB | 764.00 KiB/s
+bower bootstrap#v4.0.0-beta.2         progress Resolving deltas: 100% (56/56), done.
+bower bootstrap#v4.0.0-beta.2       EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-12832-Dq6X5U\bower.json
+Additional error details:
+Unexpected token @
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install bootstrap#v4.0.0-beta.2 --force-latest --save
+bower bootstrap#v4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2         progress remote: Compressing objects:  73% (344/471)
+bower bootstrap#v4.0.0-beta.2         progress Receiving objects:  36% (177/489), 364.00 KiB | 703.00 KiB/s
+bower bootstrap#v4.0.0-beta.2         progress Receiving objects:  59% (289/489), 828.00 KiB | 538.00 KiB/s
+bower bootstrap#v4.0.0-beta.2         progress Resolving deltas: 100% (56/56), done.
+bower bootstrap#v4.0.0-beta.2       EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-7364-VzWqtv\bower.json
+Additional error details:
+Unexpected token @
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install bootstrap#v4.0.0-beta.2 --force-latest --save
+bower bootstrap#v4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2         progress Receiving objects:   0% (1/489)
+bower bootstrap#v4.0.0-beta.2         progress Receiving objects:  39% (191/489), 444.00 KiB | 863.00 KiB/s
+bower bootstrap#v4.0.0-beta.2         progress Receiving objects:  61% (299/489), 972.00 KiB | 633.00 KiB/s
+bower bootstrap#v4.0.0-beta.2         progress Resolving deltas: 100% (56/56), done.
+bower bootstrap#v4.0.0-beta.2       EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-7664-clXIiT\bower.json
+Additional error details:
+Unexpected token @
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install bootstrap#v4.0.0-beta.2 --force-latest --save
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install bootstrap#v4.0.0-beta.2 --force-latest --save
+bower bootstrap#v4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2       EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-9624-m1pH9o\bower.json
+Additional error details:
+Unexpected token @
+bower bootstrap#v4.0.0-beta.2         progress Receiving objects:   0% (1/489)
+bower bootstrap#v4.0.0-beta.2         progress Receiving objects:  43% (211/489), 652.00 KiB | 1.23 MiB/s
+bower bootstrap#v4.0.0-beta.2         progress Receiving objects:  59% (289/489), 876.00 KiB | 852.00 KiB/s
+bower bootstrap#v4.0.0-beta.2         progress Receiving objects:  60% (294/489), 1.28 MiB | 628.00 KiB/s
+bower bootstrap#v4.0.0-beta.2         progress Resolving deltas: 100% (56/56), done.
+bower bootstrap#v4.0.0-beta.2       EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-14004-wo0qoC\bower.json
+Additional error details:
+Unexpected token @
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install --force-latest
+PATH=.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External;%PATH%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\Bower.cmd" install --force-latest
+bower bootstrap#v4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2       not-cached https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2          resolve https://github.com/twbs/bootstrap.git#v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2         checkout v4.0.0-beta.2
+bower bootstrap#v4.0.0-beta.2       EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-1980-9zP2TZ\bower.json
+Additional error details:
+Unexpected token @
+bower bootstrap#v4.0.0-beta.2         progress Receiving objects:  66% (323/489), 1.18 MiB | 2.33 MiB/s
+bower bootstrap#v4.0.0-beta.2         progress Resolving deltas: 100% (56/56), done.
+bower bootstrap#v4.0.0-beta.2       EMALFORMED Failed to read C:\Users\tomva\AppData\Local\Temp\TOM-tomva\bower\ca4c50b905dc21ea17a10549a6f5944f-3388-P396sF\bower.json
+Additional error details:
+Unexpected token @

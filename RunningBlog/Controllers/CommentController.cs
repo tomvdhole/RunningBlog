@@ -41,6 +41,34 @@ namespace RunningBlog.Controllers
             return View(comment);
         }
 
+        // GET: Comment/Delete/5
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            Comment comment = await commentServices.GetComment(id.Value);
+
+            if (comment == null)
+            {
+                return NotFound();
+            }
+
+            return View(comment);
+        }
+
+        // POST: Comment/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            Comment comment = await commentServices.GetComment(id);
+            await commentServices.DeleteComment(comment);
+            return RedirectToAction("Details", "Post", new { id = comment.PostId });      
+        }
+
         private void PrepareCommentToSave(Comment comment)
         {
             comment.PublishedBy = User.Identity.Name;
@@ -49,138 +77,15 @@ namespace RunningBlog.Controllers
     }
 }
 
-        //    // GET: Comment
-        //    public async Task<IActionResult> Index()
-        //    {
-        //        var runningBlogDbContext = _context.Comment.Include(c => c.Post);
-        //        return View(await runningBlogDbContext.ToListAsync());
-        //    }
+        
+        
 
-        //    // GET: Comment/Details/5
-        //    public async Task<IActionResult> Details(int? id)
-        //    {
-        //        if (id == null)
-        //        {
-        //            return NotFound();
-        //        }
+        
 
-        //        var comment = await _context.Comment
-        //            .Include(c => c.Post)
-        //            .SingleOrDefaultAsync(m => m.Id == id);
-        //        if (comment == null)
-        //        {
-        //            return NotFound();
-        //        }
+        
+       
 
-        //        return View(comment);
-        //    }
-
-        //    // GET: Comment/Create
-        //    public IActionResult Create()
-        //    {
-        //        ViewData["PostId"] = new SelectList(_context.Post, "Id", "Content");
-        //        return View();
-        //    }
-
-        //    // POST: Comment/Create
-        //    // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        //    // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
-        //    [HttpPost]
-        //    [ValidateAntiForgeryToken]
-        //    public async Task<IActionResult> Create([Bind("Id,Content,PublishedOn,PublishedBy,PostId")] Comment comment)
-        //    {
-        //        if (ModelState.IsValid)
-        //        {
-        //            _context.Add(comment);
-        //            await _context.SaveChangesAsync();
-        //            return RedirectToAction("Index");
-        //        }
-        //        ViewData["PostId"] = new SelectList(_context.Post, "Id", "Content", comment.PostId);
-        //        return View(comment);
-        //    }
-
-        //    // GET: Comment/Edit/5
-        //    public async Task<IActionResult> Edit(int? id)
-        //    {
-        //        if (id == null)
-        //        {
-        //            return NotFound();
-        //        }
-
-        //        var comment = await _context.Comment.SingleOrDefaultAsync(m => m.Id == id);
-        //        if (comment == null)
-        //        {
-        //            return NotFound();
-        //        }
-        //        ViewData["PostId"] = new SelectList(_context.Post, "Id", "Content", comment.PostId);
-        //        return View(comment);
-        //    }
-
-        //    // POST: Comment/Edit/5
-        //    // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        //    // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
-        //    [HttpPost]
-        //    [ValidateAntiForgeryToken]
-        //    public async Task<IActionResult> Edit(int id, [Bind("Id,Content,PublishedOn,PublishedBy,PostId")] Comment comment)
-        //    {
-        //        if (id != comment.Id)
-        //        {
-        //            return NotFound();
-        //        }
-
-        //        if (ModelState.IsValid)
-        //        {
-        //            try
-        //            {
-        //                _context.Update(comment);
-        //                await _context.SaveChangesAsync();
-        //            }
-        //            catch (DbUpdateConcurrencyException)
-        //            {
-        //                if (!CommentExists(comment.Id))
-        //                {
-        //                    return NotFound();
-        //                }
-        //                else
-        //                {
-        //                    throw;
-        //                }
-        //            }
-        //            return RedirectToAction("Index");
-        //        }
-        //        ViewData["PostId"] = new SelectList(_context.Post, "Id", "Content", comment.PostId);
-        //        return View(comment);
-        //    }
-
-        //    // GET: Comment/Delete/5
-        //    public async Task<IActionResult> Delete(int? id)
-        //    {
-        //        if (id == null)
-        //        {
-        //            return NotFound();
-        //        }
-
-        //        var comment = await _context.Comment
-        //            .Include(c => c.Post)
-        //            .SingleOrDefaultAsync(m => m.Id == id);
-        //        if (comment == null)
-        //        {
-        //            return NotFound();
-        //        }
-
-        //        return View(comment);
-        //    }
-
-        //    // POST: Comment/Delete/5
-        //    [HttpPost, ActionName("Delete")]
-        //    [ValidateAntiForgeryToken]
-        //    public async Task<IActionResult> DeleteConfirmed(int id)
-        //    {
-        //        var comment = await _context.Comment.SingleOrDefaultAsync(m => m.Id == id);
-        //        _context.Comment.Remove(comment);
-        //        await _context.SaveChangesAsync();
-        //        return RedirectToAction("Index");
-        //    }
+        
 
         //    private bool CommentExists(int id)
         //    {

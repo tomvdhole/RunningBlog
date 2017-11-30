@@ -26,7 +26,7 @@ namespace RunningBlog.Data
 
         public async Task Delete(PostCategory entity)
         {
-            await runningBlogDbContext.Set<PostCategory>().Remove(entity);
+            runningBlogDbContext.Set<PostCategory>().Remove(entity);
             await runningBlogDbContext.SaveChangesAsync();
         }
 
@@ -39,6 +39,18 @@ namespace RunningBlog.Data
         {
             throw new NotImplementedException();
         }
+
+        //Many to many problem solution
+        public async Task<PostCategory> Get(int leftTableId, int rightTableID)
+        {
+            return await runningBlogDbContext.Set<PostCategory>().SingleOrDefaultAsync(pc => pc.PostId == leftTableId && pc.CategoryId == rightTableID);
+        }
+
+        public async Task<List<PostCategory>> GetAllWithSameIdAsync(int id)
+        {
+            return await runningBlogDbContext.Set<PostCategory>().Where<PostCategory>(pc => pc.PostId == id).ToListAsync<PostCategory>();
+        }
+
 
         public Task<List<PostCategory>> GetAllAsync()
         {

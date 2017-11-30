@@ -16,9 +16,19 @@ namespace RunningBlog.Services
             this.categoryRepository = categoryRepository;
         }
 
+        public async Task DeleteCategory(Category category)
+        {
+            await categoryRepository.Delete(category);
+        }
+
         public async Task<List<Category>> GetCategories()
         {
             return await categoryRepository.GetAllAsync();
+        }
+
+        public async Task<Category> GetCategory(int id)
+        {
+            return await categoryRepository.Get(id);
         }
 
         public async Task<Category> GetCategory(Category category)
@@ -29,6 +39,11 @@ namespace RunningBlog.Services
         public async Task SaveCategory(Category category)
         {
             await categoryRepository.AddAsync(category);
+        }
+
+        public async Task UpdateCategory(Category category)
+        {
+            await categoryRepository.Update(category);
         }
     }
 }
