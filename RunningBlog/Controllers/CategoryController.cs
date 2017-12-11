@@ -2,10 +2,11 @@
 using Microsoft.AspNetCore.Mvc;
 using RunningBlog.Services;
 using RunningBlog.Models;
-using RunningBlog.Models.ManageViewModels;
+using Microsoft.AspNetCore.Authorization;
 
 namespace RunningBlog.Controllers
 {
+    [Authorize(Policy = "ElevatedRights")]
     public class CategoryController : Controller
     {
         private readonly ICategoryServices categoryServices;

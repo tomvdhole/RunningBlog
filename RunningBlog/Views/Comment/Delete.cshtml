@@ -10,8 +10,8 @@
 <div>
     <h4>Comment</h4>
     <hr />
+    <input type="hidden" asp-for="Id" />
     <dl class="dl-horizontal">
-        <input type="hidden" asp-for="Id" />
         <dt>
             @Html.DisplayNameFor(model => model.Content)
         </dt>

@@ -64,11 +64,8 @@ namespace RunningBlog
 
             services.AddAuthorization(options =>
             {
-                options.AddPolicy("RequireAdminRole",
-                    policy => policy.RequireRole("Admin"));
-
-                options.AddPolicy("RequirePowerUserRole", 
-                    policy => policy.RequireRole("PowerUser"));
+                options.AddPolicy("ElevatedRights",
+                    policy => policy.RequireRole("Admin", "PowerUser"));
             });
         
 

@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using RunningBlog.Models;
 using RunningBlog.Services;
 using RunningBlog.Models.PostViewModels;
-using RunningBlog.Models.ManageViewModels;
+using Microsoft.AspNetCore.Authorization;
 
 namespace RunningBlog.Controllers
 {
@@ -17,7 +17,7 @@ namespace RunningBlog.Controllers
             this.postServices = postServices;
         }
 
-     
+        [Authorize]
         public async Task<IActionResult> Index()
         {
             List<Post> posts = await postServices.GetPosts();
@@ -26,14 +26,16 @@ namespace RunningBlog.Controllers
 
 
         // GET: Post/Create
+        [Authorize(Policy = "ElevatedRights")]
         public async Task<IActionResult> Create([FromServices] ICategoryServices categoryServices)
         {
-            return View(await ConfigureCreatePostViewModel(categoryServices));
+            return View(await ConfigureCreatePostViewModel(categoryServices, new Post(), User.Identity.Name));
         }
 
         // POST: Post/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Policy = "ElevatedRights")]
         public async Task<IActionResult> Create([Bind("Post, Photo, SelectedCategories")] CreatePostViewModel createPostViewModel, 
                                                 [FromServices] IPostCategoryServices postCategoryServices, 
                                                 [FromServices] ICategoryServices categoryServices)
@@ -48,6 +50,7 @@ namespace RunningBlog.Controllers
         }
 
         // GET: Post/Edit/5
+        [Authorize(Policy = "ElevatedRights")]
         public async Task<IActionResult> Edit(int? id,
                                               [FromServices] ICategoryServices categoryServices)
         {
@@ -62,15 +65,15 @@ namespace RunningBlog.Controllers
                 return NotFound();
             }
            
-            CreatePostViewModel createPostViewModel =  await ConfigureCreatePostViewModel(categoryServices);
-            createPostViewModel.Post = post;
-
+            CreatePostViewModel createPostViewModel =  await ConfigureCreatePostViewModel(categoryServices, post, null);
+            
             return View(createPostViewModel);
         }
 
         // POST: Post/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Policy = "ElevatedRights")]
         public async Task<IActionResult> Edit([Bind("Post, Photo, SelectedCategories")] CreatePostViewModel createPostViewModel,
                                               [FromServices] IPostCategoryServices postCategoryServices,
                                               [FromServices] ICategoryServices categoryServices)
@@ -87,6 +90,7 @@ namespace RunningBlog.Controllers
         
 
         // GET: Post/Details/5
+        [Authorize]
         public async Task<IActionResult> Details(int? id,
                                                  [FromServices] ICategoryServices categoryServices)
         {
@@ -102,13 +106,13 @@ namespace RunningBlog.Controllers
                 return NotFound();
             }
 
-            CreatePostViewModel createPostViewModel = await ConfigureCreatePostViewModel(categoryServices);
-            createPostViewModel.Post = post;
-
+            CreatePostViewModel createPostViewModel = await ConfigureCreatePostViewModel(categoryServices, post, null);
+            
             return View(createPostViewModel);
         }
 
         //    // GET: Post/Delete/5
+        [Authorize(Policy = "ElevatedRights")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -128,6 +132,7 @@ namespace RunningBlog.Controllers
         // POST: Post/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Policy = "ElevatedRights")]
         public async Task<IActionResult> DeleteConfirmed(int id,
                                                          [FromServices] IPostCategoryServices postcategoryServices,
                                                          [FromServices] ICommentServices commentServices)
@@ -154,10 +159,22 @@ namespace RunningBlog.Controllers
             }
         }
 
-        private async Task<CreatePostViewModel> ConfigureCreatePostViewModel(ICategoryServices categoryServices)
+        private async Task<CreatePostViewModel> ConfigureCreatePostViewModel(ICategoryServices categoryServices, Post post, string creator)
         {
             CreatePostViewModel createPostViewModel = new CreatePostViewModel();
-            createPostViewModel.Post.PublishedBy = User.Identity.Name;
+            if (creator != null)
+            {
+                post.PublishedBy = creator;
+            }
+            else
+            {
+                foreach (PostCategory postCategory in post.PostCategories)
+                {
+                    createPostViewModel.SelectedCategories.Add(postCategory.Category.Name);
+                }
+            }
+            createPostViewModel.Post = post;
+
             List<Category> categories = await categoryServices.GetCategories();
             createPostViewModel.PopulateCategories(categories);
             return createPostViewModel;

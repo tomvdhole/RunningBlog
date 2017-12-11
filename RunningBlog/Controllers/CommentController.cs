@@ -1,13 +1,9 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using RunningBlog.Data;
 using RunningBlog.Models;
 using RunningBlog.Services;
+using Microsoft.AspNetCore.Authorization;
 
 namespace RunningBlog.Controllers
 {
@@ -21,6 +17,7 @@ namespace RunningBlog.Controllers
         }
 
         //GET: Comment/Create/1
+        [Authorize]
         public IActionResult Create(int postId)
         {
             var comment = new Comment { PostId = postId};
@@ -30,6 +27,7 @@ namespace RunningBlog.Controllers
         // POST: Comment/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> Create([Bind("Content,PublishedOn,PublishedBy,PostId")] Comment comment)
         {
             if (ModelState.IsValid)
@@ -42,6 +40,7 @@ namespace RunningBlog.Controllers
         }
 
         // GET: Comment/Delete/5
+        [Authorize(Policy = "ElevatedRights")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -62,6 +61,7 @@ namespace RunningBlog.Controllers
         // POST: Comment/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Policy = "ElevatedRights")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             Comment comment = await commentServices.GetComment(id);

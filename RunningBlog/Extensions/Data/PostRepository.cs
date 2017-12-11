@@ -1,8 +1,8 @@
-﻿using RunningBlog.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using RunningBlog.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 
 namespace RunningBlog.Data
@@ -39,6 +39,7 @@ namespace RunningBlog.Data
         {
             return await runningBlogDbContext.Post.Include(post => post.Comments)
                                                   .Include(post => post.PostCategories)
+                                                  .ThenInclude(pc => pc.Category)
                     .SingleOrDefaultAsync<Post>(post => post.Id == id);
         }
 

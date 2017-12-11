@@ -9,7 +9,7 @@ namespace RunningBlog.Helpers
     {
         public static string NewLineToBR(string replaceString)
         {
-            return replaceString.Replace(System.Environment.NewLine, "<br />");
+            return replaceString.Replace(System.Environment.NewLine, " <br /> ");
         }
-    }
+    } 
 }

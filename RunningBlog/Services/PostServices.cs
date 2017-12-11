@@ -33,7 +33,9 @@ namespace RunningBlog.Services
 
         public async Task<Post> Get(int id)
         {
-            return await postRepository.Get(id);
+            
+             return await postRepository.Get(id);
+            
         }
 
         public async Task UpdatePost(Post post, IFormFile photo)

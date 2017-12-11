@@ -1,13 +1,16 @@
+@using RunningBlog.Helpers
 @model RunningBlog.Models.PostViewModels.CreatePostViewModel
+@using Microsoft.AspNetCore.Authorization
+@inject IAuthorizationService AuthorizationService
+
 
 @{
     ViewData["Title"] = "Details";
 }
 
-<h2>Details</h2>
+<h2>Details of your post</h2>
 
 <div>
-    <h4>Post</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
@@ -15,34 +18,39 @@
         </dt>
         <dd>
             @Html.DisplayFor(model => model.Post.Title)
+            <br /><br />
         </dd>
         <dt>
             @Html.DisplayNameFor(model => model.Post.Photo)
         </dt>
         <dd>
-            @if (Model.Photo != null)
+            @if (Model.Post.Photo != null)
             {
                 <img src="data:image;base64,@System.Convert.ToBase64String(Model.Post.Photo)"
                     alt="company logo" width="80" height="80"
                     asp-append-version="true" />
             }
+            <br /><br />
         </dd>
         <dt>
             @Html.DisplayNameFor(model => model.Post.Content)
         </dt>
         <dd>
-            <textarea asp-for="Post.Content" rows="15" cols="40"></textarea>
+            @Html.Raw(@SiteRenderer.NewLineToBR(Model.Post.Content))
+            <br /><br />
         </dd>
         @if (Model.CategorySelectList?.Count() > 0)
             {
-            <div class="form-group">
-                <label asp-for="CategorySelectList" class="col-md-2 control-label"></label>
-                <div class="col-md-10">
-                    <select asp-for="SelectedCategories" class="form-control" asp-items="@Model.CategorySelectList"></select>
-                    <span asp-validation-for="CategorySelectList" class="text-danger"></span>
-                </div>
-            </div>
-
+            <dt>Categories</dt>
+            <dd>
+                @foreach (PostCategory postcategory in Model.Post.PostCategories)
+                {
+                    Category category = postcategory.Category;
+                    @Html.Raw(category.Name);
+                    @: <br />
+                }
+                <br />
+            </dd>
         }
         <dt>
             @Html.DisplayNameFor(model => model.Post.PublishedOn)
@@ -82,6 +90,10 @@
     }
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model.Post.Id">Edit</a> |
+    @if ((await AuthorizationService.AuthorizeAsync(User, "ElevatedRights")).Succeeded)
+    {
+        <a asp-action="Edit" asp-route-id="@Model.Post.Id">Edit</a>
+        @Html.Raw("|")
+    }
     <a asp-action="Index">Back to List</a>
 </div>

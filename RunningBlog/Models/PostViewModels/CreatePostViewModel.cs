@@ -11,11 +11,11 @@ namespace RunningBlog.Models.PostViewModels
 {
     public class CreatePostViewModel
     {       
-        public Post Post { get; set; } = new Post();
+        public Post Post { get; set; } 
         [Display(Name = "Foto")]
         public IFormFile Photo { get; set; }
 
-        public List<string> SelectedCategories { get; set; }
+        public List<string> SelectedCategories { get; set; } = new List<string>();
         [Display(Name = "Categories")]
         public SelectList CategorySelectList { get; set; } 
 
