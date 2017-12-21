@@ -78,6 +78,7 @@ namespace RunningBlog
             services.AddScoped<IPostCategoryServices, PostCategoryServices>();
             services.AddScoped<IRepository<Comment>, CommentRepository>();
             services.AddScoped<ICommentServices, CommentServices>();
+            services.AddScoped<IDeleteService, DeleteService>();
            
         }
 

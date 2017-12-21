@@ -60,17 +60,19 @@ namespace RunningBlog.Controllers
         // POST: Comment/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public async Task<IActionResult> DeleteConfirmed(int id,
+                                                         [FromServices] IDeleteService deleteService)
         {
             
             Comment comment = await commentServices.GetComment(id);
-            if (User.Identity.Name == comment.PublishedBy || User.IsInRole("Admin") || User.IsInRole("PowerUser"))
+            bool mayDelete = deleteService.MayDelete(User.Identity.Name, comment.PublishedBy, User.IsInRole("Admin"), User.IsInRole("PowerUser"));
+            if (mayDelete == true)
             {
                 await commentServices.DeleteComment(comment);
             }
             else
             {
-                return RedirectToAction("Details", "Post", new { id = comment.PostId, error = "You have not the rights to delete this comment!" });
+                return RedirectToAction("Details", "Post", new { id = comment.PostId, error = "You have not the rights to delete other persons comments!" });
             }
             return RedirectToAction("Details", "Post", new { id = comment.PostId, error = ""});      
         }
