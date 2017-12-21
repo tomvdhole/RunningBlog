@@ -40,7 +40,6 @@ namespace RunningBlog.Controllers
         }
 
         // GET: Comment/Delete/5
-        [Authorize(Policy = "ElevatedRights")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -61,12 +60,19 @@ namespace RunningBlog.Controllers
         // POST: Comment/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        [Authorize(Policy = "ElevatedRights")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+            
             Comment comment = await commentServices.GetComment(id);
-            await commentServices.DeleteComment(comment);
-            return RedirectToAction("Details", "Post", new { id = comment.PostId });      
+            if (User.Identity.Name == comment.PublishedBy || User.IsInRole("Admin") || User.IsInRole("PowerUser"))
+            {
+                await commentServices.DeleteComment(comment);
+            }
+            else
+            {
+                return RedirectToAction("Details", "Post", new { id = comment.PostId, error = "You have not the rights to delete this comment!" });
+            }
+            return RedirectToAction("Details", "Post", new { id = comment.PostId, error = ""});      
         }
 
         private void PrepareCommentToSave(Comment comment)

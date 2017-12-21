@@ -28,7 +28,7 @@ namespace RunningBlog.Data
             IOptions<InitializationOptions> optionsAccessor = serviceProvider.GetRequiredService<IOptions<InitializationOptions>>();
             InitializationOptions options = optionsAccessor.Value;
 
-            foreach (var roleName in options.UserNames)
+            foreach (var roleName in options.Roles)
             {
                 var roleExists = await roleManager.RoleExistsAsync(roleName);
                 if (!roleExists)
@@ -59,7 +59,7 @@ namespace RunningBlog.Data
                     var creationOfUser = await userManager.CreateAsync(appUser, options.PassWords[userCounter]);
                     if (creationOfUser.Succeeded)
                     {
-                        await userManager.AddToRoleAsync(appUser, options.UserNames[userCounter]);
+                        await userManager.AddToRoleAsync(appUser, options.Roles[userCounter]);
                     }
                 }
             }

@@ -9,6 +9,7 @@ namespace RunningBlog.Data
     {
         public string[] UserNames { get; set; }
         public string[] PassWords { get; set; }
+        public string[] Roles { get; set; }
         public ConnectionStrings ConnectionStrings { get; set; }
     }
 }

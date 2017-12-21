@@ -17,7 +17,9 @@ namespace RunningBlog.Models.PostViewModels
 
         public List<string> SelectedCategories { get; set; } = new List<string>();
         [Display(Name = "Categories")]
-        public SelectList CategorySelectList { get; set; } 
+        public SelectList CategorySelectList { get; set; }
+
+        public String Error { get; set; }
 
 
         public void PopulateCategories(List<Category> categories)

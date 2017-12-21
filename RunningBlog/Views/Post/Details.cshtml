@@ -73,6 +73,14 @@
     </dl>
     <a asp-action="Create" asp-controller="Comment" asp-route-postId="@Model.Post.Id" class="btn btn-default">Add a comment</a>
     <br /><br />
+
+    @if(Model.Error != null && Model.Error != "")
+    {
+          <div class="alert alert-danger">
+              <strong>Danger!</strong> @Model.Error
+          </div>
+    }
+
     @if (Model.Post.Comments.Count > 0)
     {
         <h1>Comments:</h1>
@@ -80,9 +88,12 @@
         {
             @:Posted by: @comment.PublishedBy on @comment.PublishedOn<br />
             @comment.Content<br />
-            <div>
-                <a asp-controller="Comment" asp-action="Delete" asp-route-id="@comment.Id">Delete</a>
-            </div>
+            if (User.Identity.Name == comment.PublishedBy)
+            {
+                <div>
+                    <a asp-controller="Comment" asp-action="Delete" asp-route-id="@comment.Id">Delete</a>
+                </div>
+            }
             <hr />
         }
 

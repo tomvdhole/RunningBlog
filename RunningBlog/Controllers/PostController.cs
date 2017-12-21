@@ -92,6 +92,7 @@ namespace RunningBlog.Controllers
         // GET: Post/Details/5
         [Authorize]
         public async Task<IActionResult> Details(int? id,
+                                                 string error,
                                                  [FromServices] ICategoryServices categoryServices)
         {
             if (id == null)
@@ -107,6 +108,7 @@ namespace RunningBlog.Controllers
             }
 
             CreatePostViewModel createPostViewModel = await ConfigureCreatePostViewModel(categoryServices, post, null);
+            createPostViewModel.Error = error;
             
             return View(createPostViewModel);
         }

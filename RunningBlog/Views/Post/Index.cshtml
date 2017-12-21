@@ -4,7 +4,7 @@
 @inject IAuthorizationService AuthorizationService
 
 <br />
-@if(Model.Count() > 0)
+@if (Model.Count() > 0)
 {
     <h1><u>Hieronder vindt u een overzicht van al onze gelopen toertjes!</u></h1>
     <br />
@@ -14,108 +14,114 @@
     foreach (var item in Model)
     {
         layoutCounter++;
-            @if (layoutCounter == 1)
-            {
-                @Html.Raw("<div class='row'>");
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <br />
-                            @if(item.Photo != null)
-                            {
-                                <img src="data:image;base64,@System.Convert.ToBase64String(item.Photo)" width="242" height="200" />
-                            }
-                            else
-                            {
-                                <img src="~/images/run_icon.png" width="242" height="200" alt="Run icon" />
+        @if (layoutCounter == 1)
+        {
+            @Html.Raw("<div class='row'>");
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <br />
+                    @if (item.Photo != null)
+                    {
+                        <img src="data:image;base64,@System.Convert.ToBase64String(item.Photo)" width="242" height="200" />
+                    }
+                    else
+                    {
+                        <img src="~/images/run_icon.png" width="242" height="200" alt="Run icon" />
 
-                            }
-                            <div class="caption">
-                                <h3>@item.Title</h3>
-                                <p>@Html.Raw(NewLineToBR(item.Content))</p>
-                                <br /><br />
-                                <small>Published on: <strong>@item.PublishedOn</strong>, last updated on: <strong>@item.LastUpdatedOn</strong></small><br />
-                                <small>Published by: <strong>@item.PublishedBy</strong></small><br /><br />
-                                <p>
-                                    
-                                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Details</a>
-                                    @if ((await AuthorizationService.AuthorizeAsync(User, "ElevatedRights")).Succeeded)
-                                    {
-                                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a>
-                                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-primary">Delete</a>
-                                    }
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-            }
-            @if(layoutCounter == 2)
-            {
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            @if(item.Photo != null)
-                            {
-                                <img src="data:image;base64,@System.Convert.ToBase64String(item.Photo)" width="242" height="200" />
-                            }
-                            else
-                            {
-                                <img src="~/images/run_icon.png" width="242" height="200" alt="Run icon" />
+                    }
+                    <div class="caption">
+                        <h3>@item.Title</h3>
+                        <p>@Html.Raw(NewLineToBR(item.Content))</p>
+                        <br /><br />
+                        <small>Published on: <strong>@item.PublishedOn</strong>, last updated on: <strong>@item.LastUpdatedOn</strong></small><br />
+                        <small>Published by: <strong>@item.PublishedBy</strong></small><br /><br />
+                        <p>
 
-                            }
-                            <div class="caption">
-                                <h3>@item.Title</h3>
-                                <p>@Html.Raw(NewLineToBR(item.Content))</p>
-                                <br /><br />
-                                <small>Published on: <strong>@item.PublishedOn</strong>, last updated on: <strong>@item.LastUpdatedOn</strong></small><br />
-                                <small>Published by: <strong>@item.PublishedBy</strong></small><br /><br />
-                                <p>
-                                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Details</a>
-                                    @if ((await AuthorizationService.AuthorizeAsync(User, "ElevatedRights")).Succeeded)
-                                    {
-                                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a>
-                                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-primary">Delete</a>
-                                    }
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-            }
-            @if(layoutCounter == 3)
-            {
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            @if (item.Photo != null)
+                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Details</a>
+                            @if ((await AuthorizationService.AuthorizeAsync(User, "ElevatedRights")).Succeeded)
                             {
-                                <img src="data:image;base64,@System.Convert.ToBase64String(item.Photo)" width="242" height="200" />
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a>
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-primary">Delete</a>
                             }
-                            else
-                            {
-                                <img src="~/images/run_icon.png" width="242" height="200" alt="Run icon" />
-
-                            }
-                            <div class="caption">
-                                <h3>@item.Title</h3>
-                                <p>@Html.Raw(NewLineToBR(item.Content))</p>
-                                <br /><br />
-                                <small>Published on: <strong>@item.PublishedOn</strong>, last updated on: <strong>@item.LastUpdatedOn</strong></small><br />
-                                <small>Published by: <strong>@item.PublishedBy</strong></small><br /><br />
-                                <p>
-                                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Details</a>
-                                    @if ((await AuthorizationService.AuthorizeAsync(User, "ElevatedRights")).Succeeded)
-                                    {
-                                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a>
-                                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-primary">Delete</a>
-                                    }
-                                </p>
-                            </div>
-                        </div>
+                        </p>
                     </div>
-                @Html.Raw("</div>")
-                <hr />
-                <br />
-                <br />
-                layoutCounter = 0;
-            }
+                </div>
+            </div>
         }
+        @if (layoutCounter == 2)
+        {
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    @if (item.Photo != null)
+                    {
+                        <img src="data:image;base64,@System.Convert.ToBase64String(item.Photo)" width="242" height="200" />
+                    }
+                    else
+                    {
+                        <img src="~/images/run_icon.png" width="242" height="200" alt="Run icon" />
+
+                    }
+                    <div class="caption">
+                        <h3>@item.Title</h3>
+                        <p>@Html.Raw(NewLineToBR(item.Content))</p>
+                        <br /><br />
+                        <small>Published on: <strong>@item.PublishedOn</strong>, last updated on: <strong>@item.LastUpdatedOn</strong></small><br />
+                        <small>Published by: <strong>@item.PublishedBy</strong></small><br /><br />
+                        <p>
+                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Details</a>
+                            @if ((await AuthorizationService.AuthorizeAsync(User, "ElevatedRights")).Succeeded)
+                            {
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a>
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-primary">Delete</a>
+                            }
+                        </p>
+                    </div>
+                </div>
+            </div>
+        }
+        @if (layoutCounter == 3)
+        {
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    @if (item.Photo != null)
+                    {
+                        <img src="data:image;base64,@System.Convert.ToBase64String(item.Photo)" width="242" height="200" />
+                    }
+                    else
+                    {
+                        <img src="~/images/run_icon.png" width="242" height="200" alt="Run icon" />
+
+                    }
+                    <div class="caption">
+                        <h3>@item.Title</h3>
+                        <p>@Html.Raw(NewLineToBR(item.Content))</p>
+                        <br /><br />
+                        <small>Published on: <strong>@item.PublishedOn</strong>, last updated on: <strong>@item.LastUpdatedOn</strong></small><br />
+                        <small>Published by: <strong>@item.PublishedBy</strong></small><br /><br />
+                        <p>
+                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Details</a>
+                            @if ((await AuthorizationService.AuthorizeAsync(User, "ElevatedRights")).Succeeded)
+                            {
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a>
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-primary">Delete</a>
+                            }
+                        </p>
+                    </div>
+                </div>
+            </div>
+            @Html.Raw("</div>")
+            <hr />
+            <br />
+            <br />
+            layoutCounter = 0;
+        }
+    }
+    if(layoutCounter == 1 || layoutCounter == 2)
+    {
+        @Html.Raw("</div>")
+    }
+    <br />
+    <br />
 }
 else
 {

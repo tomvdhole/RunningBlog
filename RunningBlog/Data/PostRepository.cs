@@ -43,7 +43,7 @@ namespace RunningBlog.Data
                     .SingleOrDefaultAsync<Post>(post => post.Id == id);
         }
 
-        public Task<Post> Get(int leftTableId, int rightTableID)
+        public async Task<Post> Get(int leftTableId, int rightTableID)
         {
             throw new NotImplementedException();
         }
@@ -56,7 +56,7 @@ namespace RunningBlog.Data
                    .ToListAsync<Post>();
         }
 
-        public Task<List<Post>> GetAllWithSameIdAsync(int id)
+        public async Task<List<Post>> GetAllWithSameIdAsync(int id)
         {
             throw new NotImplementedException();
         }
